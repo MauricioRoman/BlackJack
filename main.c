@@ -8,7 +8,7 @@ Written by: Mauricio Roman
 Date: 15 April 2014
 
 Comments: This was written for submission to Insight Data Engineering
-          Fellowship. It was modified and is being resubmitted.
+          Fellowship.
 
 */
 

@@ -11,6 +11,12 @@ Here is the description of the challenge:
 
 Any additional game play features are optional, but welcome."
 
-I opted to submit the challenge using C.
+I opted to submit the challenge using C. The data structures used are stacks for 
+the deck itself as well as for the hands of the dealer and the player. The program
+first creates the total deck using a pre-defined number of decks, then shuffles this
+deck a pre-defined number of times, and proceeds to deal the cards to the dealer
+and the player.
+
+
 
 
