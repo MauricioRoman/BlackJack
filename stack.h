@@ -10,11 +10,12 @@ typedef struct {
         int count;              /* number of stack elements */
 } stack;
 
+void clear_stack(stack *s);
 void init_stack(stack *s);
 int push(stack *s, int x);
 int pop(stack *s);
 int empty_stack(stack *s);
-void print_stack(stack *s);
 int stack_size(stack *s);
+void print_stack(stack *s);
 
 #endif
