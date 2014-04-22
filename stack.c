@@ -21,6 +21,8 @@ These routines were adapted by Mauricio Roman, April 2014
 
 #define STACKSIZE   2000
 
+/* This function frees existing memory and initializes the stack
+   It should not be called unless a stack has already been created */
 void clear_stack(stack *s)
 {
        free(s->s);
@@ -34,7 +36,6 @@ void init_stack(stack *s)
         s->count = 0;
         s->s=malloc(STACKSIZE*sizeof(int));
 }
-
 
 int push(stack *s, int x)
 {

@@ -1,6 +1,7 @@
 #ifndef _STACK_H_
 #define _STACK_H_
 
+/* Constants */
 #define TRUE         1
 #define FALSE        0
 
